@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".model.Observacao">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/npessoas" />
+
+            <EditText
+                android:id="@+id/npessoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:inputType="number"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/indique_local" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicaImagem"
+            android:padding="0dp"
+            android:src="@drawable/agua" />
+
+        <ImageButton
+            android:id="@+id/image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicaImagem"
+            android:padding="0dp"
+            android:src="@drawable/agua" />
+
+        <ImageButton
+            android:id="@+id/image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicaImagem"
+            android:padding="0dp"
+            android:src="@drawable/agua" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="clicaImagem"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <ImageButton
+            android:id="@+id/image4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@drawable/agua" />
+
+        <ImageButton
+            android:id="@+id/image5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicaImagem"
+            android:padding="0dp"
+            android:src="@drawable/pedra" />
+
+        <ImageButton
+            android:id="@+id/image6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicaImagem"
+            android:padding="0dp"
+            android:src="@drawable/agua" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicaImagem"
+            android:padding="0dp"
+            android:src="@drawable/agua" />
+
+        <ImageButton
+            android:id="@+id/image8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicaImagem"
+            android:padding="0dp"
+            android:src="@drawable/agua" />
+
+        <ImageButton
+            android:id="@+id/image9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicaImagem"
+            android:padding="0dp"
+            android:src="@drawable/agua" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/comportamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/indique_comportamento" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radiogrupo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/rbparado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/parado"
+                 />
+
+            <RadioButton
+                android:id="@+id/nadando"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nadando"
+                 />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Comente alguma ocorrência:" />
+
+    <EditText
+        android:id="@+id/comentarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comentarios"
+        android:layout_centerHorizontal="true"
+        android:lines="2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="confirma"
+        android:text="@string/confirmar" />
+
+</LinearLayout>

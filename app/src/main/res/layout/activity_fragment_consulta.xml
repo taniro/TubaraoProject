@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context=".view.CadastraUsuarioActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/consulta_resultados" />
+
+    <EditText
+        android:id="@+id/datainicio"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:inputType="date"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:hint="@string/data_inicio" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="250dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="consultar"
+        android:text="@string/consultar"
+         />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="exportar"
+        android:text="@string/exportar" />
+
+</LinearLayout>
+</LinearLayout>
+

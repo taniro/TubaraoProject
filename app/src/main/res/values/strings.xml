@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Tubarão</string>
+    <string name="nome">Nome</string>
+    <string name="senha">Senha</string>
+    <string name="confirmar">CONFIRMAR</string>
+    <string name="data_inicio">*Data Início</string>
+    <string name="consultar">CONSULTAR</string>
+    <string name="exportar">EXPORTAR</string>
+    <string name="npessoas">Número de pessoas</string>
+    <string name="title_activity_login">Tubarão</string>
+    <string name="salvar">SALVAR</string>
+    <string name="editar">EDITAR</string>
+    <string name="parado">Parado</string>
+    <string name="nadando">Nadando</string>
+    <string name="indique_comportamento">Indique o comportamento do Tubarão</string>
+    <string name="indique_local">Indique o local onde o Tubarão se localiza</string>
+    <string name="matricula">Matrícula</string>
+    <string name="consulta_resultados">Consulta de Resultados</string>
+    <string name="curso">*Curso</string>
+    <string name="fone">*Fone</string>
+    <string name="email">*Email</string>
+    <string name="cadastro_de_usuario">Cadastro de Usuário</string>
+    <string name="novo">NOVO</string>
+    <string name="ativo">Ativo</string>
+    <string name="tipo">Tipo</string>
+    <string name="administradora">Administrador(a)</string>
+    <string name="nomeusuario">*Nome</string>
+    <string name="data">Data</string>
+    <string name="pedra">Pedras</string>
+    <string name="agua">Água</string>
+</resources>

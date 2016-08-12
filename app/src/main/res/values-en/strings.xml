@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shark</string>
+    <string name="administradora">Adminstrator(a)</string>
+    <string name="agua">Water</string>
+    <string name="ativo">Enabled</string>
+    <string name="cadastro_de_usuario">User registration</string>
+    <string name="confirmar">CONFIRM</string>
+    <string name="consulta_resultados">Results</string>
+    <string name="consultar">CONSULT</string>
+    <string name="curso">*Course</string>
+    <string name="data">Date</string>
+    <string name="data_inicio">*Initial date</string>
+    <string name="editar">EDIT</string>
+    <string name="email">*Email</string>
+    <string name="exportar">EXPORT</string>
+    <string name="fone">*Phone</string>
+    <string name="indique_comportamento">Enter shark behavior</string>
+    <string name="indique_local">Indicate where the Shark is located</string>
+    <string name="matricula">Registration</string>
+    <string name="nadando">Swimming</string>
+    <string name="nome">Name</string>
+    <string name="nomeusuario">*Name</string>
+    <string name="novo">NEW</string>
+    <string name="npessoas">Number of people</string>
+    <string name="parado">Stopped</string>
+    <string name="pedra">Stones</string>
+    <string name="salvar">SAVE</string>
+    <string name="senha">Password</string>
+    <string name="tipo">Type</string>
+    <string name="title_activity_login">Shark</string>
+</resources>

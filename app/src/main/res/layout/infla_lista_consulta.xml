@@ -1,0 +1,42 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:stretchColumns="0,1,2,3,4"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <TableRow>
+        <EditText
+            android:id="@+id/consultadata"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/consultapedra"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/consultaagua"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/consultaparado"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/consultanadando"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+</TableLayout>
