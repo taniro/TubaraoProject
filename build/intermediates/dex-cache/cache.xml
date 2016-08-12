@@ -9,20 +9,6 @@
         <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\joda-time-2.9.3-no-tzdb_5c68c75cfb65e81e647f8d10025fee556f2ce922\classes.dex" />
     </item>
     <item
-        jar="C:\Users\VILA\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_8d2684c7fd112ceb2f792b907dc3857034206c10\classes.dex" />
-    </item>
-    <item
-        jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="debf30ce0a7560396b6235edef77e447006454c2">
-        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_4d0a426f8d7d1b3015a3094c6bf184341e1f7222\classes.dex" />
-    </item>
-    <item
         jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
         jumboMode="true"
         revision="23.0.3"
@@ -33,7 +19,7 @@
         jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="c4ae876517bcdbeec99868b9620b497b5458f41d">
+        sha1="32ddd42385e33b3f3c59eae6b7b56b17989b20a5">
         <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0d0e311341ca66d7d8977bbd450d5fb3afd9feef\classes.dex" />
     </item>
     <item
@@ -51,25 +37,39 @@
         <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_ae2fdc6774ca3aff623ac36a62c55853a290af7d\classes.dex" />
     </item>
     <item
-        jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_4c5d65fac535674da382572ab4f031e6674275f2\classes.dex" />
-    </item>
-    <item
-        jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
-        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_d7b62b44c718d2315b9c5ca617973299b3eab917\classes.dex" />
-    </item>
-    <item
         jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
         <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_642e783698f33576ca8271338924a6bdd6e5e459\classes.dex" />
+    </item>
+    <item
+        jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cee2925b4aa986ade4671432864c3dccc14b805b">
+        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f83058b91d2df6aa42e6e67b00266e8826d784c4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\VILA\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_8d2684c7fd112ceb2f792b907dc3857034206c10\classes.dex" />
+    </item>
+    <item
+        jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_929f332834ba2fa9ab5f8713011f9098e6aac6ac\classes.dex" />
+    </item>
+    <item
+        jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_4c5d65fac535674da382572ab4f031e6674275f2\classes.dex" />
     </item>
     <item
         jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
@@ -79,13 +79,6 @@
         <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.1.0_d231ae6fb84df4ccfd0d2de5619242202e2c7e74\classes.dex" />
     </item>
     <item
-        jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_6e0dd067522f3a6e8b636b86ff3097c422ce3337\classes.dex" />
-    </item>
-    <item
         jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\net.danlew\android.joda\2.9.3.1\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
@@ -93,11 +86,18 @@
         <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\net.danlew-android.joda-2.9.3.1_5230ef516522616640ce3eec60f53285ce9cc555\classes.dex" />
     </item>
     <item
-        jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="b89976d3eb21d6fc243a0c03531e96e486ee6b42">
-        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f83058b91d2df6aa42e6e67b00266e8826d784c4\classes.dex" />
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_6e0dd067522f3a6e8b636b86ff3097c422ce3337\classes.dex" />
+    </item>
+    <item
+        jar="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\GDrive\AndroidProjetos\TubaraoProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_74d9b78f89797ddef44881d1b94b0143aebcc2cd\classes.dex" />
     </item>
 
 </items>

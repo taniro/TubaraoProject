@@ -13,19 +13,8 @@
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="127dp"
-        android:text="@string/matricula"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <EditText
-        android:id="@+id/senha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberPassword"
-        android:singleLine="true"
-        android:layout_below="@+id/editText2"
+        android:text="Login"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -34,8 +23,44 @@
         android:layout_height="wrap_content"
         android:onClick="confirmalogin"
         android:text="@string/confirmar"
-        android:layout_centerVertical="true"
+        android:layout_marginBottom="47dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:layout_above="@+id/senha"
+        android:layout_alignStart="@+id/editText2" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:singleLine="true"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/senha"
+        android:layout_alignEnd="@+id/senha" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:src="@drawable/semusuario"
+        />
 
 
 </RelativeLayout>
