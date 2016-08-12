@@ -25,4 +25,7 @@ public class SplashScreenActivity extends Activity {
             }
         },3000);
     }
+
+
+    //this is a test
 }
